@@ -1,0 +1,46 @@
+{
+  "name": "ckeditor5-tabulation-converter",
+  "version": "0.0.0",
+  "description": "A ckeditor5 plugin to convert tabulationation",
+  "main": "",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "node ./node_modules/.bin/ckeditor5-dev-tests",
+    "manual": "node ./node_modules/.bin/ckeditor5-dev-tests-manual"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/concordnow/ckeditor5-tabulation-converter.git"
+  },
+  "keywords": [
+    "ckeditor",
+    "ckeditor5",
+    "ckeditor5-plugin",
+    "ckeditor5-converter",
+    "tabulation"
+  ],
+  "author": "Concordnow Worldwide Inc.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/concordnow/ckeditor5-tabulation-converter/issues"
+  },
+  "homepage": "https://github.com/concordnow/ckeditor5-tabulation-converter#readme",
+  "devDependencies": {
+    "@ckeditor/ckeditor5-dev-tests": "^16.4.2",
+    "eslint": "^6.1.0",
+    "eslint-config-ckeditor5": "^2.0.0",
+    "yarn": "^1.17.3"
+  },
+  "dependencies": {
+    "@ckeditor/ckeditor5-core": "^12.2.1",
+    "@ckeditor/ckeditor5-engine": "^13.2.1"
+  },
+  "files": [
+    "src"
+  ],
+  "engines": {
+    "node": ">=8.0.0"
+  }
+}
