@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/concordnow/ckeditor5-tabulation-converter#readme",
   "devDependencies": {
-    "@ckeditor/ckeditor5-dev-tests": "^16.4.2",
+    "@ckeditor/ckeditor5-dev-tests": "^16.7.1",
     "eslint": "^6.2.2",
     "eslint-config-ckeditor5": "^2.0.0",
     "yarn": "^1.17.3"
