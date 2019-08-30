@@ -34,7 +34,7 @@
     "yarn": "^1.17.3"
   },
   "dependencies": {
-    "@ckeditor/ckeditor5-core": "^12.2.1",
+    "@ckeditor/ckeditor5-core": "^12.3.0",
     "@ckeditor/ckeditor5-engine": "^13.2.1"
   },
   "files": [
