@@ -205,14 +205,6 @@
     rimraf "^2.6.2"
     webpack-sources "^1.1.0"
 
-"@ckeditor/ckeditor5-engine@^13.2.1":
-  version "13.2.1"
-  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-engine/-/ckeditor5-engine-13.2.1.tgz#95941d6a4a53636e17533727837d439a8e3eb7c1"
-  integrity sha512-yGERQGIYZwJtShi+CYuAWV5P1bvLDlMTMjHf+qPKCwXAw9RiWmjuS5MVpeaZRtmAMEGXyol+mf8IvYvXczfo8A==
-  dependencies:
-    "@ckeditor/ckeditor5-utils" "^13.0.1"
-    lodash-es "^4.17.10"
-
 "@ckeditor/ckeditor5-engine@^14.0.0":
   version "14.0.0"
   resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-engine/-/ckeditor5-engine-14.0.0.tgz#45547ef8a9951bd568607e046751c9b60d99dd2d"
@@ -225,14 +217,6 @@
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-inspector/-/ckeditor5-inspector-1.3.0.tgz#edd3162b8065d94a6683ce4b11b8bcff76e99177"
   integrity sha512-P5b3/Uy5QHL4awSfhaYBfwo//umGnk2q7KjC6vBGoYm07HDMULNgfzUIAYckvncACY16yXesnqV2TniC1IplYw==
-
-"@ckeditor/ckeditor5-utils@^13.0.1":
-  version "13.0.1"
-  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-utils/-/ckeditor5-utils-13.0.1.tgz#fc51c8d2e661d6ccd05748c1c53f1975835e1cbd"
-  integrity sha512-u/18fD/lPeoir3R6+chBlm2ZCdvbqXqbx4yelOc4J+wzQUj53n0ZuADZrxXH0lXY/jsU5Lat0wisgmjwOkmGBw==
-  dependencies:
-    ckeditor5 "^12.3.1"
-    lodash-es "^4.17.10"
 
 "@ckeditor/ckeditor5-utils@^14.0.0":
   version "14.0.0"
@@ -1440,11 +1424,6 @@ cipher-base@^1.0.0, cipher-base@^1.0.1, cipher-base@^1.0.3:
   dependencies:
     inherits "^2.0.1"
     safe-buffer "^5.0.1"
-
-ckeditor5@^12.3.1:
-  version "12.3.1"
-  resolved "https://registry.yarnpkg.com/ckeditor5/-/ckeditor5-12.3.1.tgz#729ef09ddde9a99fbd988aaad6157cc9b743d41c"
-  integrity sha512-hXXAMvV8zdRIMsa66rUKlU50+/IC7obQxg/myBe8kkYrnrfthGwWFd3j6qHzlEb48B9g1noZX8oqBF9E6D+N2Q==
 
 ckeditor5@^12.4.0:
   version "12.4.0"
