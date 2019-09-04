@@ -1,6 +1,6 @@
 {
   "name": "ckeditor5-tabulation-converter",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A ckeditor5 plugin to convert tabulationation",
   "main": "",
   "publishConfig": {
