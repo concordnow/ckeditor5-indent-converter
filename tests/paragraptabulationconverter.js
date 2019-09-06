@@ -18,10 +18,6 @@ describe( 'ParagraphTabulationConverter', () => {
 		}
 	} );
 
-	it( 'defines plugin name', () => {
-		expect( ParagraphTabulationConverter.pluginName ).to.equal( 'ParagraphTabulationConverter' );
-	} );
-
 	describe( 'conversion', () => {
 		beforeEach( () => {
 			return VirtualTestEditor
@@ -32,6 +28,14 @@ describe( 'ParagraphTabulationConverter', () => {
 					editor = newEditor;
 					doc = editor.model;
 				} );
+		} );
+
+		it( 'defines plugin name', () => {
+			expect( ParagraphTabulationConverter.pluginName ).to.equal( 'ParagraphTabulationConverter' );
+		} );
+
+		it( 'should set proper schema rules', () => {
+			expect( doc.schema.checkAttribute( [ 'cktab' ], 'tabulation' ) ).to.be.true;
 		} );
 
 		it( 'should not convert to cktab if span not empty', () => {

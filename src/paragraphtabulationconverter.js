@@ -16,7 +16,7 @@ export default class ParagraphTabulationConverter extends Plugin {
 			allowWhere: '$text',
 			isInline: true,
 			isObject: true,
-			allowAttibutes: [ 'tabulation' ]
+			allowAttributes: [ 'tabulation' ]
 		} );
 
 		conversion.for( 'upcast' ).elementToElement( {
