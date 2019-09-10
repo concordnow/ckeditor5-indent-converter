@@ -129,9 +129,9 @@
     lodash-es "^4.17.10"
 
 "@ckeditor/ckeditor5-dev-tests@^16.7.1":
-  version "16.7.1"
-  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-dev-tests/-/ckeditor5-dev-tests-16.7.1.tgz#2a58d030659017f13359cbd66a34e99573573f42"
-  integrity sha512-x0RTU9/q4ugBvork9iIpGEKnBTGXhx9hHyimsO2fBFZkvSIQqsMkVXCf9rdrzvb3VpfSc0OutZR6daPEqEKo6g==
+  version "16.7.2"
+  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-dev-tests/-/ckeditor5-dev-tests-16.7.2.tgz#470b97581cd636a1f559f1ced0a11a45b1d00c30"
+  integrity sha512-+NDCc7mc+NL4eim1zHETv9JEh+7gJEkvmRCyLft38MGaMGUUWFDTKIjFzVgV2lsnjxvqCLSx/PQ/NvB+HSWobQ==
   dependencies:
     "@babel/core" "^7.0.0"
     "@ckeditor/ckeditor5-dev-utils" "^12.0.5"
