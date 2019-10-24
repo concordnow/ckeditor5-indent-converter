@@ -34,7 +34,7 @@
   },
   "dependencies": {
     "@ckeditor/ckeditor5-core": "^12.3.0",
-    "@ckeditor/ckeditor5-engine": "^14.0.0"
+    "@ckeditor/ckeditor5-engine": "^15.0.0"
   },
   "files": [
     "src"
