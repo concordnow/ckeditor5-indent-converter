@@ -51,7 +51,7 @@ describe( 'ParagraphTabulationConverter', () => {
 			editor.setData( data );
 
 			expect( getModelData( doc ) ).to.not.equal( '<paragraph>[]<cktab></cktab>foo</paragraph>' );
-			expect( getModelData( doc ) ).to.equal( '<paragraph>[]foo</paragraph>' );
+			expect( getModelData( doc ) ).to.equal( '<paragraph>[] foo</paragraph>' );
 		} );
 
 		it( 'should convert to cktab if span empty and has width in style', () => {

@@ -27,11 +27,11 @@ export default class ParagraphTabulationConverter extends Plugin {
 				}
 			},
 			model: ( viewElement, modelWriter ) => {
-				if ( !viewElement.isEmpty ) {
-					return;
+				const children = Array.from( viewElement.getChildren() );
+				if ( children.length === 1 && children[ 0 ].data.trim() === '' ) {
+					const tabulation = getRoundedValue( viewElement.getStyle( 'width' ) );
+					return modelWriter.createElement( 'cktab', { tabulation } );
 				}
-				const tabulation = getRoundedValue( viewElement.getStyle( 'width' ) );
-				return modelWriter.createElement( 'cktab', { tabulation } );
 			}
 		} );
 
