@@ -2449,16 +2449,16 @@ escodegen@^1.9.0:
     source-map "~0.6.1"
 
 eslint-config-ckeditor5@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-ckeditor5/-/eslint-config-ckeditor5-2.0.0.tgz#d02dc459996642cbf8ae0dd1bca0d8730fc3b6b8"
-  integrity sha512-fdCeR8s0s4+N8/r8xTlooA6vL7Qu+t5cW8lcycUkiGfo8+dtgUaSRUR1WIpC57j20KfeOOOMDEhiITCzgqWt5Q==
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/eslint-config-ckeditor5/-/eslint-config-ckeditor5-2.0.1.tgz#2dde25bfb53f274953a4e4f3fedca57bf75ee765"
+  integrity sha512-SDwJs/D7daPdr6Tx9gfAeVNgid+CQJnLbHa1AYU7Do/ek4vla7QySImFi/Vsb0kYyQXqAy0vWIalbNOpVifSug==
   dependencies:
-    eslint-plugin-ckeditor5-rules "^0.0.3"
+    eslint-plugin-ckeditor5-rules "^0.0.4"
 
-eslint-plugin-ckeditor5-rules@^0.0.3:
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-ckeditor5-rules/-/eslint-plugin-ckeditor5-rules-0.0.3.tgz#17223d50363809c5eae57ce1c03673d08c8c2c21"
-  integrity sha512-MU8FNzOukAOfxMmCkWhRB07lp1Zje0PhMzKtRqjiE1Wg4MDzDaKfOTxALixhdVvfgz/GENFinoc+mRS4Hg8t3g==
+eslint-plugin-ckeditor5-rules@^0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-ckeditor5-rules/-/eslint-plugin-ckeditor5-rules-0.0.4.tgz#ac37a4cda74200103b28d0ffc685e91446265237"
+  integrity sha512-dbftk5ahFnXnlcI2XgRUegG+BwmzB1/HVFWFQTsOmUQEPvZiuSiAwEgn5dHX7l0OJ2HGynHrs2uqnHJlR1fUzg==
 
 eslint-scope@^4.0.3:
   version "4.0.3"
