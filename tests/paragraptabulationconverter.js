@@ -51,13 +51,15 @@ describe( 'ParagraphTabulationConverter', () => {
 			editor.setData( data );
 
 			expect( getModelData( doc ) ).to.not.equal( '<paragraph>[]<cktab></cktab>foo</paragraph>' );
-			expect( getModelData( doc ) ).to.equal( '<paragraph>[]foo</paragraph>' );
+			// space is added after the unbreakable space
+			expect( getModelData( doc ) ).to.equal( '<paragraph>[] foo</paragraph>' );
 		} );
 
 		it( 'should convert to cktab if span empty and has width in style', () => {
 			const data = '<p><span style="width:50px;">&nbsp;</span>foo</p>';
 			editor.setData( data );
 
+			// cktab tag is not added (maybe due to unbreakable space)
 			expect( getModelData( doc ) ).to.equal( '<paragraph>[]<cktab tabulation="50"></cktab>foo</paragraph>' );
 		} );
 
@@ -65,6 +67,7 @@ describe( 'ParagraphTabulationConverter', () => {
 			const data = '<p><span style="width:50px;">&nbsp;</span>foo</p>';
 			editor.setData( data );
 
+			// cktab tag is not added (maybe due to unbreakable space)
 			expect( getModelData( doc ) )
 				.to.equal( `<paragraph>[]<cktab tabulation="${ getRoundedValue( '50px' ) }"></cktab>foo</paragraph>` );
 		} );
@@ -76,6 +79,7 @@ describe( 'ParagraphTabulationConverter', () => {
 
 			editor.setData( data );
 
+			// no span tag at all
 			expect( editor.getData() ).to.equal( expectedData );
 			expect( getViewData( editor.editing.view, { withoutSelection: true } ) )
 				.to.equal( expectedViewData );
@@ -88,6 +92,7 @@ describe( 'ParagraphTabulationConverter', () => {
 
 			editor.setData( data );
 
+			// no span tag at all
 			expect( editor.getData() ).to.equal( expectedData );
 			expect( getViewData( editor.editing.view, { withoutSelection: true } ) )
 				.to.equal( expectedViewData );
