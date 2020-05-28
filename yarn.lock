@@ -119,13 +119,13 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@ckeditor/ckeditor5-core@^16.0.0":
-  version "16.0.0"
-  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-core/-/ckeditor5-core-16.0.0.tgz#c9ff37b883ca293ac5998e04a89e2ac613042e09"
-  integrity sha512-JKYnoXgfULjfAGRgVmf9/at3gGikfzKwGp4O8RpE3NYGeb/xH6hSgj2mUE9QwqyAY5at1QLnio5ZvU2HiWL4pA==
+"@ckeditor/ckeditor5-core@^19.0.1":
+  version "19.0.1"
+  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-core/-/ckeditor5-core-19.0.1.tgz#becf3723c69f96bcaf35880530a5cc986e145020"
+  integrity sha512-HKuJp7XEmg8q6o8T2pIUCQDxLlgx2vtweJeDpgreLrX4IqreE0UQtz+TUyxvtlay55UhVpBP4zrnROxrq4Prng==
   dependencies:
-    "@ckeditor/ckeditor5-engine" "^16.0.0"
-    "@ckeditor/ckeditor5-utils" "^16.0.0"
+    "@ckeditor/ckeditor5-engine" "^19.0.1"
+    "@ckeditor/ckeditor5-utils" "^19.0.1"
     lodash-es "^4.17.10"
 
 "@ckeditor/ckeditor5-dev-tests@^17.1.0":
@@ -214,6 +214,14 @@
     "@ckeditor/ckeditor5-utils" "^16.0.0"
     lodash-es "^4.17.10"
 
+"@ckeditor/ckeditor5-engine@^19.0.1":
+  version "19.0.1"
+  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-engine/-/ckeditor5-engine-19.0.1.tgz#0c23e0d52e1468c14e66a4bcdfb3bde6d12dccf6"
+  integrity sha512-dBE4bSpQzGhoyZaWdDaUJyWG0ltCmpXVkv5YG/x+4s+n3vJf9KKEQcXvj/XPCrMqLaWGKTNugKYfQIEJdOzTZA==
+  dependencies:
+    "@ckeditor/ckeditor5-utils" "^19.0.1"
+    lodash-es "^4.17.10"
+
 "@ckeditor/ckeditor5-inspector@^1.0.0":
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-inspector/-/ckeditor5-inspector-1.3.0.tgz#edd3162b8065d94a6683ce4b11b8bcff76e99177"
@@ -223,6 +231,13 @@
   version "16.0.0"
   resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-utils/-/ckeditor5-utils-16.0.0.tgz#9f7851d0271deebe3db3a5f8f1ca1c1ad6cfdcbc"
   integrity sha512-EMrKmVmxfyuttGlbZI0eK7stYigbo2kFCasN0m2apg/Pn4Dwil0pennWuJ964zvZ8te1Pyt33cweQZlYzSqvYQ==
+  dependencies:
+    lodash-es "^4.17.10"
+
+"@ckeditor/ckeditor5-utils@^19.0.1":
+  version "19.0.1"
+  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-utils/-/ckeditor5-utils-19.0.1.tgz#796baad6b1551dfa1889f71aac8d268e2c65a711"
+  integrity sha512-97sTqcsqHG8XDD191sKz/qEy4r48BzaO+Q0Saanx3Ijk0ax355Ix4+hu3ge8uj2kmncHxaUKVtq/SVpoHJZNkw==
   dependencies:
     lodash-es "^4.17.10"
 
