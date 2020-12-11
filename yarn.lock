@@ -214,6 +214,14 @@
     "@ckeditor/ckeditor5-utils" "^16.0.0"
     lodash-es "^4.17.10"
 
+"@ckeditor/ckeditor5-engine@^24.0.0":
+  version "24.0.0"
+  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-engine/-/ckeditor5-engine-24.0.0.tgz#316b1a3f0f80ffececb5f9d356c8bce5a57346e3"
+  integrity sha512-+M/S+q5+2vuwv9oVE0dd2p3Ex0RzQiqfYJMFGmBH2Smj7RKwREYlohtx6DneMmvEbbeVyCz3eFKXgh+RkQhoAA==
+  dependencies:
+    "@ckeditor/ckeditor5-utils" "^24.0.0"
+    lodash-es "^4.17.15"
+
 "@ckeditor/ckeditor5-inspector@^1.0.0":
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-inspector/-/ckeditor5-inspector-1.3.0.tgz#edd3162b8065d94a6683ce4b11b8bcff76e99177"
@@ -225,6 +233,13 @@
   integrity sha512-EMrKmVmxfyuttGlbZI0eK7stYigbo2kFCasN0m2apg/Pn4Dwil0pennWuJ964zvZ8te1Pyt33cweQZlYzSqvYQ==
   dependencies:
     lodash-es "^4.17.10"
+
+"@ckeditor/ckeditor5-utils@^24.0.0":
+  version "24.0.0"
+  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-utils/-/ckeditor5-utils-24.0.0.tgz#4c1e829e6712a011df60d041730c57b9c14a5a22"
+  integrity sha512-m+8ZuO7Gqv5WDGnoI1Y7VA8cwCa9+26/Unth6PCBq3UvOT2ivm310YTItE8TqlP14aJk178UZj8VoMTj+V3jwQ==
+  dependencies:
+    lodash-es "^4.17.15"
 
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
@@ -4224,7 +4239,7 @@ locate-path@^3.0.0:
     p-locate "^3.0.0"
     path-exists "^3.0.0"
 
-lodash-es@^4.17.10:
+lodash-es@^4.17.10, lodash-es@^4.17.15:
   version "4.17.15"
   resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.17.15.tgz#21bd96839354412f23d7a10340e5eac6ee455d78"
   integrity sha512-rlrc3yU3+JNOpZ9zj5pQtxnx2THmvRykwL4Xlxoa8I9lHBlVbbyPhgyPMioxVZ4NqyxaVVtaJnzsyOidQIhyyQ==
