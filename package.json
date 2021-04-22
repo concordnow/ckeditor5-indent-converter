@@ -33,7 +33,7 @@
     "eslint-config-ckeditor5": "^2.0.0"
   },
   "dependencies": {
-    "@ckeditor/ckeditor5-core": "^16.0.0",
+    "@ckeditor/ckeditor5-core": "^27.1.0",
     "@ckeditor/ckeditor5-engine": "^16.0.0"
   },
   "files": [
