@@ -1,0 +1,44 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "04:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: eslint
+    versions:
+    - 7.18.0
+    - 7.19.0
+    - 7.20.0
+    - 7.21.0
+    - 7.22.0
+    - 7.23.0
+    - 7.24.0
+  - dependency-name: "@ckeditor/ckeditor5-core"
+    versions:
+    - 25.0.0
+    - 26.0.0
+    - 27.0.0
+  - dependency-name: "@ckeditor/ckeditor5-dev-tests"
+    versions:
+    - 24.0.2
+    - 24.1.0
+    - 24.2.0
+    - 24.3.0
+    - 24.4.0
+    - 24.4.1
+  - dependency-name: "@ckeditor/ckeditor5-engine"
+    versions:
+    - 25.0.0
+    - 26.0.0
+  - dependency-name: lodash
+    versions:
+    - 4.17.20
+  - dependency-name: elliptic
+    versions:
+    - 6.5.3
+  - dependency-name: handlebars
+    versions:
+    - 4.7.6
